@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add movie</title>
+<meta name="description"content="My Add movie">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/movies.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+
+</head>
+<body>
+
+  <header>
+    <img class="logo fleft" src=".\images\projector-logo.png" alt="logo"/>
+    <nav>
+
+        <ul class="fright">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ADD MOVIE</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="clearfix"></div>
+  <h2>ADD A MOVIE</h2>
+
+  <form class="movieform" action="/sample-action">
+    <ul>
+      <li>
+        <label for="movie-name">Movie name</label>
+        <input id="movie-name" type="text" name="movie-name"/>
+      </li>
+      <li>
+        <label>Release year</label>
+        <input type="number" name="release-year"/>
+      </li>
+      <li>
+        <label for="language">Language</label>
+        <select name="lang">
+          <option value="English">English</option>
+          <option value="Tamil">Tamil</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+
+
+
+          <label for="rating">Rating</label>
+          <select name="rating">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+          </select>
+        </li>
+        <li>
+          <label for="thumbnail">Thumbnail url</label>
+          <input id="thumbnail" type="url" name="Thumbnail url"/>
+        </li>
+        <li>
+          <label for="plot">Plot</label>
+          <textarea id="plot" name="plot" rows="8"></textarea>
+        </li>
+        <li>
+          <label for="poster">Poster url</label>
+          <input id="poster" type="url" name="Poster url"/>
+        </li>
+        <li>
+          <label for="cast">Cast</label>
+          <textarea id="cast" name="cast" rows="6"></textarea>
+        </li>
+        <li>
+          <button type="submit">Save</button>
+        </li>
+      </ul>
+      <footer>
+
+          <img class="log fleft" src=".\images\facebook.png">
+          <img class="log fleft" src=".\images\instagram.png">
+          <img class="log fleft" src=".\images\twitter.png">
+          <img class="logo fright" src=".\images\projector-logo.png">
+
+
+
+
+
+
+        </footer>
+      </body>
+
+
+
+</html>
